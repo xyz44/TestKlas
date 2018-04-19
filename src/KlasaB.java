@@ -3,11 +3,15 @@
  */
 public class KlasaB extends KlasaA {
     private int i = 3;
+    static int j=0;
     public KlasaB() {
         System.out.println("Konstruktor KlasyB");
     }
     static {
-        System.out.println("Z funkcji static KlasyB");
+        System.out.println("Blok static KlasyB");
+        System.out.println("Wartość zmiennej j przed zmianą w klasie B = " + j);
+        j = 9;
+        System.out.println("Wartość zmiennej j po zmianie w klasie B = " + j);
     }
 
     public void foo() {

@@ -6,7 +6,8 @@ import java.util.regex.Pattern;
 
 public class KlasaC extends KlasaB {
     static {
-        System.out.println("Funkcja static KlasyC");
+        System.out.println("Blok static KlasyC");
+        System.out.println("Wartość zmiennej j  w klasie C = " + j);
     }
     public KlasaC() {
 //        super();
