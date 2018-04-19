@@ -4,8 +4,8 @@
 public class Test {
     public static void main(String[] args) {
         KlasaC obC;
-        long argb = 370208L;
-        long maska = 255L;
+        //long argb = 370208L;
+        //long maska = 255L;
 
         obC = new KlasaC();
         obC.foo();
@@ -17,6 +17,6 @@ public class Test {
         //((KlasaB) kl).foo();
         System.out.println("===========================================");
         //System.out.println((argb>>>8)&maska);
-        obC.testSymbolDotWithOthers();
+        //obC.testSymbolDotWithOthers();
     }
 }

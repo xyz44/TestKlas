@@ -26,6 +26,7 @@ public class KlasaC extends KlasaB {
         System.out.println(pattern.matcher("kkkka#$*&JHDFSta").matches());
         System.out.println(pattern.matcher("ata").matches());
         System.out.println(pattern.matcher("kta").matches());
+        System.out.println("To jest - " + pattern.matcher("katarakta").matches());
         System.out.println(p1.matcher("00-910").matches());
     }
 }
