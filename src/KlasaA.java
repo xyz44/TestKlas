@@ -2,8 +2,8 @@
  * Created by Bogdan on 15-10-2017.
  */
 public class KlasaA {
-    int d;
-    String napis;
+    private int d;
+    private String napis;
 
     public KlasaA() {
         System.out.println("Konstruktor KlasyA");
@@ -20,4 +20,8 @@ public class KlasaA {
         System.out.println("KlasaA: wartość zmiennej d = " + d);
         System.out.println("KlasaA: wartość zmiennej napis = " + napis);
     }
+	
+	public void getNapis() {
+		return napis;
+	}
 }

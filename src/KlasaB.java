@@ -5,6 +5,7 @@ public class KlasaB extends KlasaA {
     private int i = 3;
     static int j=0;
 	private final int id = 100;
+	private final int st = -1;
     public KlasaB() {
         System.out.println("Konstruktor KlasyB");
     }
