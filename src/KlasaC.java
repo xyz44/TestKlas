@@ -5,6 +5,7 @@ import java.util.regex.Pattern;
 //import  java.util.regex.Matcher;
 
 public class KlasaC extends KlasaB {
+	private String nameOfCountry;
     static {
         System.out.println("Blok static KlasyC");
         System.out.println("Wartość zmiennej j  w klasie C = " + j);
@@ -12,6 +13,7 @@ public class KlasaC extends KlasaB {
     public KlasaC() {
 //        super();
         System.out.println("Konstruktor KlasyC");
+		nameOfCountry = "";
     }
 
     public void foo() {
@@ -30,4 +32,6 @@ public class KlasaC extends KlasaB {
         System.out.println("To jest - " + pattern.matcher("katarakta").matches());
         System.out.println(p1.matcher("00-910").matches());
     }
+	
+	public String getNameOfCountry() {return nameOfCountry;}
 }
