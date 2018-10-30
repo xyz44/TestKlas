@@ -1,7 +1,9 @@
+import java.io.Serializable;
+
 /**
  * Created by Bogdan on 15-10-2017.
  */
-public class KlasaA {
+public class KlasaA implements Serializable {
     private int d;
     private String napis;
 
@@ -21,7 +23,7 @@ public class KlasaA {
         System.out.println("KlasaA: wartość zmiennej napis = " + napis);
     }
 	
-	public void getNapis() {
+	public String getNapis() {
 		return napis;
 	}
 }
