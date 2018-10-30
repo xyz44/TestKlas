@@ -11,7 +11,7 @@ public class KlasaC extends KlasaB {
         System.out.println("Wartość zmiennej j  w klasie C = " + j);
     }
     public KlasaC() {
-//        super();
+        super();
         System.out.println("Konstruktor KlasyC");
 		nameOfCountry = "";
     }
