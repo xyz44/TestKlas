@@ -1,17 +1,18 @@
 /**
  * Created by Bogdan on 15-10-2017.
  */
+import java.io.Serializable;
 import java.util.regex.Pattern;
 //import  java.util.regex.Matcher;
 
-public class KlasaC extends KlasaB {
+public class KlasaC extends KlasaB implements Serializable {
 	private String nameOfCountry;
     static {
         System.out.println("Blok static KlasyC");
         System.out.println("Wartość zmiennej j  w klasie C = " + j);
     }
     public KlasaC() {
-//        super();
+        super();
         System.out.println("Konstruktor KlasyC");
 		nameOfCountry = "";
     }

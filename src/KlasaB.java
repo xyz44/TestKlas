@@ -1,7 +1,9 @@
+import java.io.Serializable;
+
 /**
  * Created by Bogdan on 15-10-2017.
  */
-public class KlasaB extends KlasaA {
+public class KlasaB extends KlasaA implements Serializable {
     private int i = 3;
     protected static int j=0;
 	private final int id = 100;
