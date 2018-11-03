@@ -5,7 +5,7 @@ import java.io.Serializable;
 import java.util.regex.Pattern;
 //import  java.util.regex.Matcher;
 
-public class KlasaC extends KlasaB implements Serializable, Observer {
+public class KlasaC extends KlasaB implements Serializable {
 	private String nameOfCountry;
 	private Double VAT = Double.valueOf(23);
     static {
@@ -37,7 +37,7 @@ public class KlasaC extends KlasaB implements Serializable, Observer {
 	
 	public String getNameOfCountry() {return nameOfCountry;}
 
-    public String message(String newMessage) {
-        return newMessage;
+	public void notification(String message) {
+        System.out.println(message);
     }
 }
