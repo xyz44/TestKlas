@@ -6,6 +6,7 @@ import java.io.Serializable;
 public class KlasaA implements Serializable {
     private int d;
     private String napis;
+	private Double stanKonta;
 
     public KlasaA() {
         System.out.println("Konstruktor KlasyA");
