@@ -7,7 +7,8 @@ public class KlasaA implements Serializable {
     private int d;
     private String napis;
 	private Double stanKonta;
-
+	private String x;
+	
     public KlasaA() {
         System.out.println("Konstruktor KlasyA");
         //System.out.println("KlasaA: wartość zmiennej d = " + d);
